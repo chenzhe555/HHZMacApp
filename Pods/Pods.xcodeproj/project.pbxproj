@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5000CA6E0F4545EB0325E0D8FF640079 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0B7087496C176E9EFE2F924A937C84 /* Cocoa.framework */; };
+		7DE771636E88B69DF1AE0B10235170FA /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46113D3917711B20CB751285B6ECB0D6 /* Security.framework */; };
+		8524CD1C71135EC2BF348B697F016CFF /* STPrivilegedTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 19439C7CD789EDBC4D01A677A33020D6 /* STPrivilegedTask.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B11B4461B4FB6549327F7251FE0CE341 /* STPrivilegedTask.h in Headers */ = {isa = PBXBuildFile; fileRef = D8B65A1C80E23D8C9BFC86E85C0A4869 /* STPrivilegedTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3E3E407E478D9389E143FAB8FBB146B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0B7087496C176E9EFE2F924A937C84 /* Cocoa.framework */; };
+		D673030F60A0CE79E22AC38AD60CBBDC /* STPrivilegedTask-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7BE054DDFC25AE394BA9A3719AEAFC /* STPrivilegedTask-dummy.m */; };
+		ECDBFC4883B503AF9D6C8737BFDB19C0 /* Pods-HHZMacApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0046744D7B962B4769E5559F580342F4 /* Pods-HHZMacApp-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36673634A3CD107C548C1F54DBA3DC1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 590DD8205D7E6B7D519C970F4231EB2E;
+			remoteInfo = STPrivilegedTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0046744D7B962B4769E5559F580342F4 /* Pods-HHZMacApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HHZMacApp-dummy.m"; sourceTree = "<group>"; };
+		0671428AB5BF3D9132A76AC2AA7FBE34 /* Pods-HHZMacApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HHZMacApp-resources.sh"; sourceTree = "<group>"; };
+		19439C7CD789EDBC4D01A677A33020D6 /* STPrivilegedTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = STPrivilegedTask.m; sourceTree = "<group>"; };
+		26880F984A1522FFBF7DE6AB6CEC42CE /* Pods-HHZMacApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HHZMacApp.debug.xcconfig"; sourceTree = "<group>"; };
+		46113D3917711B20CB751285B6ECB0D6 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		52DDC727A57378C95132B2EB8D53AA9E /* libSTPrivilegedTask.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSTPrivilegedTask.a; path = libSTPrivilegedTask.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		71080C215C4CEF2B7BC9B2CA43995C7C /* STPrivilegedTask-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "STPrivilegedTask-prefix.pch"; sourceTree = "<group>"; };
+		801AB20DC9A8442502F4E20D10AD6138 /* libPods-HHZMacApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-HHZMacApp.a"; path = "libPods-HHZMacApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		814F9306CAFAE7E13E595322ABA980AF /* Pods-HHZMacApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HHZMacApp-frameworks.sh"; sourceTree = "<group>"; };
+		86EBA6D1FBCAD0ABDF44AB8BFE3373DE /* Pods-HHZMacApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HHZMacApp.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AF60A77A2A809D52CBBAB22B5FC205B4 /* Pods-HHZMacApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HHZMacApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		BB7BE054DDFC25AE394BA9A3719AEAFC /* STPrivilegedTask-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "STPrivilegedTask-dummy.m"; sourceTree = "<group>"; };
+		CA0DDA42CA1EF47A3F4E0C638B5DF376 /* STPrivilegedTask.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = STPrivilegedTask.xcconfig; sourceTree = "<group>"; };
+		D70B1371771E8F31CF43F21AEAECC192 /* Pods-HHZMacApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HHZMacApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D8B65A1C80E23D8C9BFC86E85C0A4869 /* STPrivilegedTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = STPrivilegedTask.h; sourceTree = "<group>"; };
+		FD0B7087496C176E9EFE2F924A937C84 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BDA6819ED2B4EF8C1FF0B3CAADC2D7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5000CA6E0F4545EB0325E0D8FF640079 /* Cocoa.framework in Frameworks */,
+				7DE771636E88B69DF1AE0B10235170FA /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB10B1F7A2DF5A5A507818D0C9F2D3D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3E3E407E478D9389E143FAB8FBB146B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		017EFCCE8A99D5157EF90F6864F72788 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA0DDA42CA1EF47A3F4E0C638B5DF376 /* STPrivilegedTask.xcconfig */,
+				BB7BE054DDFC25AE394BA9A3719AEAFC /* STPrivilegedTask-dummy.m */,
+				71080C215C4CEF2B7BC9B2CA43995C7C /* STPrivilegedTask-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/STPrivilegedTask";
+			sourceTree = "<group>";
+		};
+		19B72B4A701DFDB00FC76186A4B81C09 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				FD0B7087496C176E9EFE2F924A937C84 /* Cocoa.framework */,
+				46113D3917711B20CB751285B6ECB0D6 /* Security.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		5272A07A4011B520D53CF30993C742B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A97D8A1C4D1C3F63B7D84FBC837B511 /* STPrivilegedTask */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		53D819CD41C24E6F5E33C90968420CF4 /* Pods-HHZMacApp */ = {
+			isa = PBXGroup;
+			children = (
+				D70B1371771E8F31CF43F21AEAECC192 /* Pods-HHZMacApp-acknowledgements.markdown */,
+				AF60A77A2A809D52CBBAB22B5FC205B4 /* Pods-HHZMacApp-acknowledgements.plist */,
+				0046744D7B962B4769E5559F580342F4 /* Pods-HHZMacApp-dummy.m */,
+				814F9306CAFAE7E13E595322ABA980AF /* Pods-HHZMacApp-frameworks.sh */,
+				0671428AB5BF3D9132A76AC2AA7FBE34 /* Pods-HHZMacApp-resources.sh */,
+				26880F984A1522FFBF7DE6AB6CEC42CE /* Pods-HHZMacApp.debug.xcconfig */,
+				86EBA6D1FBCAD0ABDF44AB8BFE3373DE /* Pods-HHZMacApp.release.xcconfig */,
+			);
+			name = "Pods-HHZMacApp";
+			path = "Target Support Files/Pods-HHZMacApp";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				D648CE86F139C7CCFD55D5B8A03BE74B /* Frameworks */,
+				5272A07A4011B520D53CF30993C742B3 /* Pods */,
+				9CDCF3D7B8609695D527C696582084F7 /* Products */,
+				D0DFB790D4022C0E5FFB2B77B86D7EC5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9A97D8A1C4D1C3F63B7D84FBC837B511 /* STPrivilegedTask */ = {
+			isa = PBXGroup;
+			children = (
+				D8B65A1C80E23D8C9BFC86E85C0A4869 /* STPrivilegedTask.h */,
+				19439C7CD789EDBC4D01A677A33020D6 /* STPrivilegedTask.m */,
+				017EFCCE8A99D5157EF90F6864F72788 /* Support Files */,
+			);
+			name = STPrivilegedTask;
+			path = STPrivilegedTask;
+			sourceTree = "<group>";
+		};
+		9CDCF3D7B8609695D527C696582084F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				801AB20DC9A8442502F4E20D10AD6138 /* libPods-HHZMacApp.a */,
+				52DDC727A57378C95132B2EB8D53AA9E /* libSTPrivilegedTask.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0DFB790D4022C0E5FFB2B77B86D7EC5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				53D819CD41C24E6F5E33C90968420CF4 /* Pods-HHZMacApp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D648CE86F139C7CCFD55D5B8A03BE74B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19B72B4A701DFDB00FC76186A4B81C09 /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		42AC22A685EFE9D201697E474DD5F950 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B11B4461B4FB6549327F7251FE0CE341 /* STPrivilegedTask.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		590DD8205D7E6B7D519C970F4231EB2E /* STPrivilegedTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEF7A9F56AC01F9EDF1AFEAE580A69CF /* Build configuration list for PBXNativeTarget "STPrivilegedTask" */;
+			buildPhases = (
+				2163C7792BF323AE711A7F4BDB16BA05 /* Sources */,
+				5BDA6819ED2B4EF8C1FF0B3CAADC2D7E /* Frameworks */,
+				42AC22A685EFE9D201697E474DD5F950 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = STPrivilegedTask;
+			productName = STPrivilegedTask;
+			productReference = 52DDC727A57378C95132B2EB8D53AA9E /* libSTPrivilegedTask.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D68D842543E58156FDB6E11A92ED5D35 /* Pods-HHZMacApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36A270668C065B4AFCAA37B6C6A4EB73 /* Build configuration list for PBXNativeTarget "Pods-HHZMacApp" */;
+			buildPhases = (
+				2F9368B4CDA05CC0DA3ABFD9CB615B27 /* Sources */,
+				FB10B1F7A2DF5A5A507818D0C9F2D3D2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA3A7A5CC6024814B8327F2E6C0A7A0D /* PBXTargetDependency */,
+			);
+			name = "Pods-HHZMacApp";
+			productName = "Pods-HHZMacApp";
+			productReference = 801AB20DC9A8442502F4E20D10AD6138 /* libPods-HHZMacApp.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 9CDCF3D7B8609695D527C696582084F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D68D842543E58156FDB6E11A92ED5D35 /* Pods-HHZMacApp */,
+				590DD8205D7E6B7D519C970F4231EB2E /* STPrivilegedTask */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2163C7792BF323AE711A7F4BDB16BA05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D673030F60A0CE79E22AC38AD60CBBDC /* STPrivilegedTask-dummy.m in Sources */,
+				8524CD1C71135EC2BF348B697F016CFF /* STPrivilegedTask.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F9368B4CDA05CC0DA3ABFD9CB615B27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECDBFC4883B503AF9D6C8737BFDB19C0 /* Pods-HHZMacApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA3A7A5CC6024814B8327F2E6C0A7A0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = STPrivilegedTask;
+			target = 590DD8205D7E6B7D519C970F4231EB2E /* STPrivilegedTask */;
+			targetProxy = 36673634A3CD107C548C1F54DBA3DC1D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		27FF36934340F78F8CEAF0E1B4A50ABD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA0DDA42CA1EF47A3F4E0C638B5DF376 /* STPrivilegedTask.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/STPrivilegedTask/STPrivilegedTask-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+			};
+			name = Debug;
+		};
+		6A44B19DED83659DBF30109C7D7D47B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26880F984A1522FFBF7DE6AB6CEC42CE /* Pods-HHZMacApp.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		95F64E5B6DCCA1732C23EC4FFC0D6649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA0DDA42CA1EF47A3F4E0C638B5DF376 /* STPrivilegedTask.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/STPrivilegedTask/STPrivilegedTask-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+			};
+			name = Release;
+		};
+		C734A39EF0A2FD4BDDD7FE07639BA9C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DFAC0C760B4F89BFA443B7677EF1F1BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86EBA6D1FBCAD0ABDF44AB8BFE3373DE /* Pods-HHZMacApp.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FC4738C3605827B2CD972C349A860865 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C734A39EF0A2FD4BDDD7FE07639BA9C0 /* Debug */,
+				FC4738C3605827B2CD972C349A860865 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36A270668C065B4AFCAA37B6C6A4EB73 /* Build configuration list for PBXNativeTarget "Pods-HHZMacApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A44B19DED83659DBF30109C7D7D47B1 /* Debug */,
+				DFAC0C760B4F89BFA443B7677EF1F1BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEF7A9F56AC01F9EDF1AFEAE580A69CF /* Build configuration list for PBXNativeTarget "STPrivilegedTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27FF36934340F78F8CEAF0E1B4A50ABD /* Debug */,
+				95F64E5B6DCCA1732C23EC4FFC0D6649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

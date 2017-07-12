@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7461CCA31F1664A3009F3238 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7461CCA21F1664A3009F3238 /* AppDelegate.m */; };
+		7461CCA61F1664A3009F3238 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7461CCA51F1664A3009F3238 /* main.m */; };
+		7461CCA91F1664A3009F3238 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7461CCA81F1664A3009F3238 /* ViewController.m */; };
+		7461CCAB1F1664A3009F3238 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7461CCAA1F1664A3009F3238 /* Assets.xcassets */; };
+		7461CCAE1F1664A3009F3238 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7461CCAC1F1664A3009F3238 /* Main.storyboard */; };
+		7461CCBB1F16682A009F3238 /* HHZWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7461CCBA1F16682A009F3238 /* HHZWindowController.m */; };
+		7461CCBF1F166B2F009F3238 /* TestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7461CCBD1F166B2F009F3238 /* TestVC.m */; };
+		7461CCC01F166B2F009F3238 /* TestVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7461CCBE1F166B2F009F3238 /* TestVC.xib */; };
+		7461CCC31F16788A009F3238 /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7461CCC21F16788A009F3238 /* MainWindowController.m */; };
+		7473F64F1F168B14004FF3B9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7473F64E1F168B14004FF3B9 /* Cocoa.framework */; };
+		F5A582FC181DAC39739F3F2D /* libPods-HHZMacApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4390749847C5DABBF34ED399 /* libPods-HHZMacApp.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		06A2E41E499DBE4C01818840 /* Pods-HHZMacApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHZMacApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-HHZMacApp/Pods-HHZMacApp.release.xcconfig"; sourceTree = "<group>"; };
+		4390749847C5DABBF34ED399 /* libPods-HHZMacApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HHZMacApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7461CC9E1F1664A3009F3238 /* HHZMacApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HHZMacApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7461CCA11F1664A3009F3238 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7461CCA21F1664A3009F3238 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7461CCA51F1664A3009F3238 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7461CCA71F1664A3009F3238 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7461CCA81F1664A3009F3238 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7461CCAA1F1664A3009F3238 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7461CCAD1F1664A3009F3238 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7461CCAF1F1664A3009F3238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7461CCB91F16682A009F3238 /* HHZWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZWindowController.h; sourceTree = "<group>"; };
+		7461CCBA1F16682A009F3238 /* HHZWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZWindowController.m; sourceTree = "<group>"; };
+		7461CCBC1F166B2F009F3238 /* TestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestVC.h; sourceTree = "<group>"; };
+		7461CCBD1F166B2F009F3238 /* TestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestVC.m; sourceTree = "<group>"; };
+		7461CCBE1F166B2F009F3238 /* TestVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestVC.xib; sourceTree = "<group>"; };
+		7461CCC11F16788A009F3238 /* MainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWindowController.h; sourceTree = "<group>"; };
+		7461CCC21F16788A009F3238 /* MainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWindowController.m; sourceTree = "<group>"; };
+		7473F64E1F168B14004FF3B9 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CAE0A911D30D2FD1D6C2E84F /* Pods-HHZMacApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHZMacApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HHZMacApp/Pods-HHZMacApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7461CC9B1F1664A3009F3238 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7473F64F1F168B14004FF3B9 /* Cocoa.framework in Frameworks */,
+				F5A582FC181DAC39739F3F2D /* libPods-HHZMacApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10D81AEACEFFF1F99D1FCEBB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7473F64E1F168B14004FF3B9 /* Cocoa.framework */,
+				4390749847C5DABBF34ED399 /* libPods-HHZMacApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		367EA15F308D400AE5EE2FA1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CAE0A911D30D2FD1D6C2E84F /* Pods-HHZMacApp.debug.xcconfig */,
+				06A2E41E499DBE4C01818840 /* Pods-HHZMacApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7461CC951F1664A3009F3238 = {
+			isa = PBXGroup;
+			children = (
+				7461CCA01F1664A3009F3238 /* HHZMacApp */,
+				7461CC9F1F1664A3009F3238 /* Products */,
+				367EA15F308D400AE5EE2FA1 /* Pods */,
+				10D81AEACEFFF1F99D1FCEBB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7461CC9F1F1664A3009F3238 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7461CC9E1F1664A3009F3238 /* HHZMacApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7461CCA01F1664A3009F3238 /* HHZMacApp */ = {
+			isa = PBXGroup;
+			children = (
+				7461CCB61F166562009F3238 /* macApp */,
+				7461CCA11F1664A3009F3238 /* AppDelegate.h */,
+				7461CCA21F1664A3009F3238 /* AppDelegate.m */,
+				7461CCC11F16788A009F3238 /* MainWindowController.h */,
+				7461CCC21F16788A009F3238 /* MainWindowController.m */,
+				7461CCA71F1664A3009F3238 /* ViewController.h */,
+				7461CCA81F1664A3009F3238 /* ViewController.m */,
+				7461CCBC1F166B2F009F3238 /* TestVC.h */,
+				7461CCBD1F166B2F009F3238 /* TestVC.m */,
+				7461CCBE1F166B2F009F3238 /* TestVC.xib */,
+				7461CCAA1F1664A3009F3238 /* Assets.xcassets */,
+				7461CCAC1F1664A3009F3238 /* Main.storyboard */,
+				7461CCAF1F1664A3009F3238 /* Info.plist */,
+				7461CCA41F1664A3009F3238 /* Supporting Files */,
+			);
+			path = HHZMacApp;
+			sourceTree = "<group>";
+		};
+		7461CCA41F1664A3009F3238 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7461CCA51F1664A3009F3238 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7461CCB61F166562009F3238 /* macApp */ = {
+			isa = PBXGroup;
+			children = (
+				7461CCB81F166700009F3238 /* base */,
+				7461CCB71F166562009F3238 /* modifyTemplate */,
+			);
+			path = macApp;
+			sourceTree = "<group>";
+		};
+		7461CCB71F166562009F3238 /* modifyTemplate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = modifyTemplate;
+			sourceTree = "<group>";
+		};
+		7461CCB81F166700009F3238 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				7461CCB91F16682A009F3238 /* HHZWindowController.h */,
+				7461CCBA1F16682A009F3238 /* HHZWindowController.m */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7461CC9D1F1664A3009F3238 /* HHZMacApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7461CCB21F1664A3009F3238 /* Build configuration list for PBXNativeTarget "HHZMacApp" */;
+			buildPhases = (
+				F99F505D89DA7D86F0A9ECE5 /* [CP] Check Pods Manifest.lock */,
+				7461CC9A1F1664A3009F3238 /* Sources */,
+				7461CC9B1F1664A3009F3238 /* Frameworks */,
+				7461CC9C1F1664A3009F3238 /* Resources */,
+				187B62F342E4F1438B79B8EF /* [CP] Embed Pods Frameworks */,
+				3D56B8EAA4911EDADE200ADC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HHZMacApp;
+			productName = HHZMacApp;
+			productReference = 7461CC9E1F1664A3009F3238 /* HHZMacApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7461CC961F1664A3009F3238 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "陈哲是个好孩子";
+				TargetAttributes = {
+					7461CC9D1F1664A3009F3238 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = P5LP3WSZUP;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7461CC991F1664A3009F3238 /* Build configuration list for PBXProject "HHZMacApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7461CC951F1664A3009F3238;
+			productRefGroup = 7461CC9F1F1664A3009F3238 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7461CC9D1F1664A3009F3238 /* HHZMacApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7461CC9C1F1664A3009F3238 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7461CCAB1F1664A3009F3238 /* Assets.xcassets in Resources */,
+				7461CCAE1F1664A3009F3238 /* Main.storyboard in Resources */,
+				7461CCC01F166B2F009F3238 /* TestVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		187B62F342E4F1438B79B8EF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HHZMacApp/Pods-HHZMacApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D56B8EAA4911EDADE200ADC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HHZMacApp/Pods-HHZMacApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F99F505D89DA7D86F0A9ECE5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7461CC9A1F1664A3009F3238 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7461CCC31F16788A009F3238 /* MainWindowController.m in Sources */,
+				7461CCA91F1664A3009F3238 /* ViewController.m in Sources */,
+				7461CCA61F1664A3009F3238 /* main.m in Sources */,
+				7461CCBB1F16682A009F3238 /* HHZWindowController.m in Sources */,
+				7461CCBF1F166B2F009F3238 /* TestVC.m in Sources */,
+				7461CCA31F1664A3009F3238 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7461CCAC1F1664A3009F3238 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7461CCAD1F1664A3009F3238 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7461CCB01F1664A3009F3238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7461CCB11F1664A3009F3238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7461CCB31F1664A3009F3238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAE0A911D30D2FD1D6C2E84F /* Pods-HHZMacApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = P5LP3WSZUP;
+				INFOPLIST_FILE = HHZMacApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenzhe.HHZMacApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7461CCB41F1664A3009F3238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06A2E41E499DBE4C01818840 /* Pods-HHZMacApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = P5LP3WSZUP;
+				INFOPLIST_FILE = HHZMacApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenzhe.HHZMacApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7461CC991F1664A3009F3238 /* Build configuration list for PBXProject "HHZMacApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7461CCB01F1664A3009F3238 /* Debug */,
+				7461CCB11F1664A3009F3238 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7461CCB21F1664A3009F3238 /* Build configuration list for PBXNativeTarget "HHZMacApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7461CCB31F1664A3009F3238 /* Debug */,
+				7461CCB41F1664A3009F3238 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7461CC961F1664A3009F3238 /* Project object */;
+}

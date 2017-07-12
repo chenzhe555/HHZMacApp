@@ -1,0 +1,12 @@
+PODS:
+  - STPrivilegedTask (1.0.1)
+
+DEPENDENCIES:
+  - STPrivilegedTask (~> 1.0.1)
+
+SPEC CHECKSUMS:
+  STPrivilegedTask: 103f97827454e786074640cf89d303be344498c7
+
+PODFILE CHECKSUM: b97dae19b2f9573a0a59b8a28ff741b8dcca5a5f
+
+COCOAPODS: 1.3.0.beta.1
