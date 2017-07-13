@@ -9,14 +9,16 @@
 /* Begin PBXBuildFile section */
 		7461CCA31F1664A3009F3238 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7461CCA21F1664A3009F3238 /* AppDelegate.m */; };
 		7461CCA61F1664A3009F3238 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7461CCA51F1664A3009F3238 /* main.m */; };
-		7461CCA91F1664A3009F3238 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7461CCA81F1664A3009F3238 /* ViewController.m */; };
 		7461CCAB1F1664A3009F3238 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7461CCAA1F1664A3009F3238 /* Assets.xcassets */; };
-		7461CCAE1F1664A3009F3238 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7461CCAC1F1664A3009F3238 /* Main.storyboard */; };
 		7461CCBB1F16682A009F3238 /* HHZWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7461CCBA1F16682A009F3238 /* HHZWindowController.m */; };
-		7461CCBF1F166B2F009F3238 /* TestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7461CCBD1F166B2F009F3238 /* TestVC.m */; };
-		7461CCC01F166B2F009F3238 /* TestVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7461CCBE1F166B2F009F3238 /* TestVC.xib */; };
-		7461CCC31F16788A009F3238 /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7461CCC21F16788A009F3238 /* MainWindowController.m */; };
 		7473F64F1F168B14004FF3B9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7473F64E1F168B14004FF3B9 /* Cocoa.framework */; };
+		74CE75411F168E1C00912072 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74CE75401F168E1C00912072 /* MainMenu.xib */; };
+		74CE75521F16A65A00912072 /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CE75511F16A65A00912072 /* MainWindowController.m */; };
+		74CE75551F16A6B700912072 /* MainTemplateVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CE75541F16A6B700912072 /* MainTemplateVC.m */; };
+		74CE75591F16AA7C00912072 /* HHZNSViewUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CE75581F16AA7C00912072 /* HHZNSViewUtils.m */; };
+		74CE755D1F16AFAC00912072 /* HHZNSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CE755C1F16AFAC00912072 /* HHZNSViewController.m */; };
+		74CE75611F16AFE800912072 /* HHZNSMainTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 74CE755F1F16AFE800912072 /* HHZNSMainTestVC.m */; };
+		74CE75621F16AFE800912072 /* HHZNSMainTestVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74CE75601F16AFE800912072 /* HHZNSMainTestVC.xib */; };
 		F5A582FC181DAC39739F3F2D /* libPods-HHZMacApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4390749847C5DABBF34ED399 /* libPods-HHZMacApp.a */; };
 /* End PBXBuildFile section */
 
@@ -27,19 +29,24 @@
 		7461CCA11F1664A3009F3238 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7461CCA21F1664A3009F3238 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7461CCA51F1664A3009F3238 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7461CCA71F1664A3009F3238 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7461CCA81F1664A3009F3238 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7461CCAA1F1664A3009F3238 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7461CCAD1F1664A3009F3238 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7461CCAF1F1664A3009F3238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7461CCB91F16682A009F3238 /* HHZWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZWindowController.h; sourceTree = "<group>"; };
 		7461CCBA1F16682A009F3238 /* HHZWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZWindowController.m; sourceTree = "<group>"; };
-		7461CCBC1F166B2F009F3238 /* TestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestVC.h; sourceTree = "<group>"; };
-		7461CCBD1F166B2F009F3238 /* TestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestVC.m; sourceTree = "<group>"; };
-		7461CCBE1F166B2F009F3238 /* TestVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestVC.xib; sourceTree = "<group>"; };
-		7461CCC11F16788A009F3238 /* MainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWindowController.h; sourceTree = "<group>"; };
-		7461CCC21F16788A009F3238 /* MainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWindowController.m; sourceTree = "<group>"; };
 		7473F64E1F168B14004FF3B9 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		74CE75401F168E1C00912072 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		74CE75501F16A65A00912072 /* MainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWindowController.h; sourceTree = "<group>"; };
+		74CE75511F16A65A00912072 /* MainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWindowController.m; sourceTree = "<group>"; };
+		74CE75531F16A6B700912072 /* MainTemplateVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTemplateVC.h; sourceTree = "<group>"; };
+		74CE75541F16A6B700912072 /* MainTemplateVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTemplateVC.m; sourceTree = "<group>"; };
+		74CE75571F16AA7C00912072 /* HHZNSViewUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZNSViewUtils.h; sourceTree = "<group>"; };
+		74CE75581F16AA7C00912072 /* HHZNSViewUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZNSViewUtils.m; sourceTree = "<group>"; };
+		74CE755A1F16AAFA00912072 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		74CE755B1F16AFAC00912072 /* HHZNSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZNSViewController.h; sourceTree = "<group>"; };
+		74CE755C1F16AFAC00912072 /* HHZNSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZNSViewController.m; sourceTree = "<group>"; };
+		74CE755E1F16AFE800912072 /* HHZNSMainTestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZNSMainTestVC.h; sourceTree = "<group>"; };
+		74CE755F1F16AFE800912072 /* HHZNSMainTestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZNSMainTestVC.m; sourceTree = "<group>"; };
+		74CE75601F16AFE800912072 /* HHZNSMainTestVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HHZNSMainTestVC.xib; sourceTree = "<group>"; };
 		CAE0A911D30D2FD1D6C2E84F /* Pods-HHZMacApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHZMacApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HHZMacApp/Pods-HHZMacApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -98,15 +105,9 @@
 				7461CCB61F166562009F3238 /* macApp */,
 				7461CCA11F1664A3009F3238 /* AppDelegate.h */,
 				7461CCA21F1664A3009F3238 /* AppDelegate.m */,
-				7461CCC11F16788A009F3238 /* MainWindowController.h */,
-				7461CCC21F16788A009F3238 /* MainWindowController.m */,
-				7461CCA71F1664A3009F3238 /* ViewController.h */,
-				7461CCA81F1664A3009F3238 /* ViewController.m */,
-				7461CCBC1F166B2F009F3238 /* TestVC.h */,
-				7461CCBD1F166B2F009F3238 /* TestVC.m */,
-				7461CCBE1F166B2F009F3238 /* TestVC.xib */,
+				74CE755A1F16AAFA00912072 /* PrefixHeader.pch */,
+				74CE75401F168E1C00912072 /* MainMenu.xib */,
 				7461CCAA1F1664A3009F3238 /* Assets.xcassets */,
-				7461CCAC1F1664A3009F3238 /* Main.storyboard */,
 				7461CCAF1F1664A3009F3238 /* Info.plist */,
 				7461CCA41F1664A3009F3238 /* Supporting Files */,
 			);
@@ -124,6 +125,8 @@
 		7461CCB61F166562009F3238 /* macApp */ = {
 			isa = PBXGroup;
 			children = (
+				74CE75561F16AA4100912072 /* Utils */,
+				74CE75471F16A2D300912072 /* windows */,
 				7461CCB81F166700009F3238 /* base */,
 				7461CCB71F166562009F3238 /* modifyTemplate */,
 			);
@@ -133,6 +136,11 @@
 		7461CCB71F166562009F3238 /* modifyTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				74CE75531F16A6B700912072 /* MainTemplateVC.h */,
+				74CE75541F16A6B700912072 /* MainTemplateVC.m */,
+				74CE755E1F16AFE800912072 /* HHZNSMainTestVC.h */,
+				74CE755F1F16AFE800912072 /* HHZNSMainTestVC.m */,
+				74CE75601F16AFE800912072 /* HHZNSMainTestVC.xib */,
 			);
 			path = modifyTemplate;
 			sourceTree = "<group>";
@@ -142,8 +150,28 @@
 			children = (
 				7461CCB91F16682A009F3238 /* HHZWindowController.h */,
 				7461CCBA1F16682A009F3238 /* HHZWindowController.m */,
+				74CE755B1F16AFAC00912072 /* HHZNSViewController.h */,
+				74CE755C1F16AFAC00912072 /* HHZNSViewController.m */,
 			);
 			path = base;
+			sourceTree = "<group>";
+		};
+		74CE75471F16A2D300912072 /* windows */ = {
+			isa = PBXGroup;
+			children = (
+				74CE75501F16A65A00912072 /* MainWindowController.h */,
+				74CE75511F16A65A00912072 /* MainWindowController.m */,
+			);
+			path = windows;
+			sourceTree = "<group>";
+		};
+		74CE75561F16AA4100912072 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				74CE75571F16AA7C00912072 /* HHZNSViewUtils.h */,
+				74CE75581F16AA7C00912072 /* HHZNSViewUtils.m */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,6 +203,7 @@
 		7461CC961F1664A3009F3238 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = HHZNS;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "陈哲是个好孩子";
 				TargetAttributes = {
@@ -209,8 +238,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7461CCAB1F1664A3009F3238 /* Assets.xcassets in Resources */,
-				7461CCAE1F1664A3009F3238 /* Main.storyboard in Resources */,
-				7461CCC01F166B2F009F3238 /* TestVC.xib in Resources */,
+				74CE75411F168E1C00912072 /* MainMenu.xib in Resources */,
+				74CE75621F16AFE800912072 /* HHZNSMainTestVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,27 +298,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7461CCC31F16788A009F3238 /* MainWindowController.m in Sources */,
-				7461CCA91F1664A3009F3238 /* ViewController.m in Sources */,
+				74CE75521F16A65A00912072 /* MainWindowController.m in Sources */,
+				74CE75591F16AA7C00912072 /* HHZNSViewUtils.m in Sources */,
+				74CE75611F16AFE800912072 /* HHZNSMainTestVC.m in Sources */,
+				74CE755D1F16AFAC00912072 /* HHZNSViewController.m in Sources */,
 				7461CCA61F1664A3009F3238 /* main.m in Sources */,
 				7461CCBB1F16682A009F3238 /* HHZWindowController.m in Sources */,
-				7461CCBF1F166B2F009F3238 /* TestVC.m in Sources */,
+				74CE75551F16A6B700912072 /* MainTemplateVC.m in Sources */,
 				7461CCA31F1664A3009F3238 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		7461CCAC1F1664A3009F3238 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7461CCAD1F1664A3009F3238 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		7461CCB01F1664A3009F3238 /* Debug */ = {
@@ -388,6 +408,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = P5LP3WSZUP;
+				GCC_PREFIX_HEADER = "${SRCROOT}/HHZMacApp/PrefixHeader.pch";
 				INFOPLIST_FILE = HHZMacApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
@@ -403,6 +424,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = P5LP3WSZUP;
+				GCC_PREFIX_HEADER = "${SRCROOT}/HHZMacApp/PrefixHeader.pch";
 				INFOPLIST_FILE = HHZMacApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;

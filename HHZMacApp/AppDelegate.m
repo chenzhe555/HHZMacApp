@@ -7,8 +7,8 @@
 //
 
 #import "AppDelegate.h"
-#import "MainWindowController.h"
-#import "TestVC.h"
+#import "MainTemplateVC.h"
+#import "HHZNSMainTestVC.h"
 
 @interface AppDelegate ()
 
@@ -17,15 +17,9 @@
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-//    NSWindow * window = [[NSWindow alloc] initWithContentRect:NSRectFromCGRect(CGRectMake(0, 0, 100, 100)) styleMask:NSWindowStyleMaskBorderless backing:NSBackingStoreRetained defer:YES];
-//
-//    TestVC * vc = [[TestVC alloc] initWithNibName:@"TestVC" bundle:nil];
-//    window.contentViewController = vc;
-
-    // Insert code here to initialize your application
-    NSLog(@"111");
-    
+    //代码创建Window
     [self generateMainWindow];
+    
 }
 
 
@@ -36,22 +30,28 @@
 #pragma mark 创建主视图
 -(void)generateMainWindow
 {
-//    NSWindow * window = [[NSWindow alloc] initWithContentRect:NSRectFromCGRect(CGRectMake(0, 0, 100, 100)) styleMask:NSWindowStyleMaskBorderless backing:NSBackingStoreRetained defer:YES];
-    
-    TestVC * vc = [[TestVC alloc] init];
+    MainTemplateVC * vc = [[MainTemplateVC alloc] init];
+//    HHZNSMainTestVC * vc = [[HHZNSMainTestVC alloc] initWithNibName:@"HHZNSMainTestVC" bundle:nil];
     NSWindow * window = [NSWindow windowWithContentViewController:vc];
-    
-    MainWindowController * mainWindowVC = [[MainWindowController alloc] initWithWindow:window];
-    mainWindowVC.window.title = @"陈哲是个好孩子";
-    
-   
-    
-    [mainWindowVC showWindow:self];
 
-    
-    [mainWindowVC.window makeKeyWindow];
-
+    self.loginWindow = [[MainWindowController alloc] initWithWindow:window];
+    self.loginWindow.window.title = @"陈哲是个好孩子";
+    [self.loginWindow showWindow:self];
+    //注册窗口拉伸导致Size改变的通知
+    [self registerWindowSizeModify:window];
 }
 
+-(void)registerWindowSizeModify:(NSWindow *)window
+{
+    [[NSNotificationCenter defaultCenter] addObserver:window
+                                             selector:@selector(windowDidResize:)
+                                                 name:NSWindowDidResizeNotification
+                                               object:self];
+}
+
+- (void)windowDidResize:(NSNotification *)aNotification
+{
+    NSLog(@"xxxxx");
+}
 
 @end
